@@ -36,7 +36,7 @@
             // 
             this.button1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.button1.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(146, 25);
+            this.button1.Location = new System.Drawing.Point(146, 55);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(562, 119);
             this.button1.TabIndex = 0;
@@ -47,12 +47,12 @@
             // btn_ogrt
             // 
             this.btn_ogrt.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.btn_ogrt.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ogrt.Location = new System.Drawing.Point(146, 172);
+            this.btn_ogrt.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_ogrt.Location = new System.Drawing.Point(146, 269);
             this.btn_ogrt.Name = "btn_ogrt";
             this.btn_ogrt.Size = new System.Drawing.Size(562, 119);
             this.btn_ogrt.TabIndex = 1;
-            this.btn_ogrt.Text = "ÖĞRETİM ELEMANI";
+            this.btn_ogrt.Text = "VERİ TABANI İŞLEMLERİ";
             this.btn_ogrt.UseVisualStyleBackColor = false;
             this.btn_ogrt.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -60,7 +60,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.BackColor = System.Drawing.Color.IndianRed;
             this.ClientSize = new System.Drawing.Size(878, 504);
             this.Controls.Add(this.btn_ogrt);
             this.Controls.Add(this.button1);

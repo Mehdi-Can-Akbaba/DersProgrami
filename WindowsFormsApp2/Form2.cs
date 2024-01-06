@@ -19,7 +19,9 @@ namespace WindowsFormsApp2
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Form3 frm3 = new Form3();
+            frm3.Show();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)

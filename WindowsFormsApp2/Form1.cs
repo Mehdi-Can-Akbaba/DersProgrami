@@ -15,6 +15,7 @@ namespace WindowsFormsApp2
         public Form1()
         {
             InitializeComponent();
+            this.IsMdiContainer = true;
             
         }
 
@@ -78,7 +79,6 @@ namespace WindowsFormsApp2
             form.Show();
             this.Hide();
         }
-
   
     }
 }
