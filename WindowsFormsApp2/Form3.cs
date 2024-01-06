@@ -275,7 +275,7 @@ namespace WindowsFormsApp2
             }
             else
             {
-                // Kullanıcı bir değer seçmemişse, uygun bir değer verilebilir veya hata mesajı gösterilebilir.
+              // Kullanıcı bir değer seçmemişse, uygun bir değer verilebilir veya hata mesajı gösterilebilir.
                 cmd.Parameters.AddWithValue("@ders_ad", DBNull.Value);
             }
 
@@ -333,6 +333,8 @@ namespace WindowsFormsApp2
                 // Veritabanı bağlantısını kapat
                 conn.Close();
                 dersler();
+
+
             }
         }
 
