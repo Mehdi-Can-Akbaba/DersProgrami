@@ -15,7 +15,7 @@ namespace WindowsFormsApp2
         public Form1()
         {
             InitializeComponent();
-            this.IsMdiContainer = true;
+            
             
         }
 
@@ -36,10 +36,7 @@ namespace WindowsFormsApp2
             this.Hide();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
+      
 
         private void button4_Click(object sender, EventArgs e)
         {

@@ -36,35 +36,6 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
-        private void dataGridView1_CellEnter(object sender, DataGridViewCellEventArgs e)
-        {
-            try
-            {
-                textBox1.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
-                textBox2.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
-            }
-            catch
-            {
-
-                throw;
-            }
-        }
-
-        private void dataGridView2_CellEnter(object sender, DataGridViewCellEventArgs e)
-        {
-            try
-            {
-                textBox1.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
-                textBox2.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
-            }
-            catch
-            {
-
-                throw;
-            }
-        }
-
-       
 
         private void _1044_Load(object sender, EventArgs e)
         {
